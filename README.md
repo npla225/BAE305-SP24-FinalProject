@@ -17,7 +17,7 @@ Materials:
 Drawings:   
 ![image](https://github.com/npla225/BAE305-SP24-FinalProject/assets/156371043/519abd4b-f517-4149-b785-d5f05e6a83a2)
 
-Design:
+Design: ???
 
 Code:
 
@@ -99,7 +99,15 @@ void loop() {
 Code Display 1
 
 Assembly Instructions:
-
+1. Build a simple frame that can fit a 12 oz cup underneath it while also accomidating for the stirring rod.
+2. Mount the arduino to the back of the frame leaving enough room for the display and breadboard to fit on the front of the machine.
+3. Mount the solenoids on opposite sides of the frame above where the cup will be with the flow direction leading to the front of the frame.
+4. Size tubing appropriately so that ample tubing leads from both solenoids to the front of the frame to pour into the drink.
+5. Build a separate frame
+6. Drill hole in cap and seal
+7. wire
+8. run
+9. adjust
 ## Testing Description ##
 
 ## Discussion ##
