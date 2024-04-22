@@ -12,7 +12,10 @@ For the BAE 305 final project, our group created a drink mixer, specifically an 
 
 Materials:
 
-Drawings:
+![image](https://github.com/npla225/BAE305-SP24-FinalProject/assets/156371043/b5dc7117-02e0-47ee-ba7d-93786c70930a)
+
+Drawings:   
+![image](https://github.com/npla225/BAE305-SP24-FinalProject/assets/156371043/519abd4b-f517-4149-b785-d5f05e6a83a2)
 
 Design:
 
