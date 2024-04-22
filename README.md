@@ -171,6 +171,9 @@ Graduated Cylinder
 5. Repeat steps 3 and 4 until the delay times result in the desired volumes of tea and lemonade.
 6. Repeat steps 3 through 5 for the 8 oz and 12 oz loops with their respective volumes of tea and lemonade based on the 2:1 volumetric ratio.   
 ## Design Decision Discussion ##
+
+1. The elevation head was too inconsistent when first beginning to pump the iced tea and lemonade leading to the tubing needing to be filled by doing test runs of the device. Once the tubing was filled, the proper amount of liquid would be dispensed based on what button was pressed.
+
 elevation head to inconsistent, noise from wiring solenoids messing up Arduino
 ## Testing Results Discussion ##
 ## Testing Results ## 
