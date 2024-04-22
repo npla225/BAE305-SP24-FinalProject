@@ -169,13 +169,9 @@ Graduated Cylinder
 3. Using a 2:1 volumetric ratio of tea to lemonade change the first delay on the relay open times to dispense ~1.33 oz of tea and lemonade for a total of 2.66 oz.
 4. Close the lemonade relay and adjust the second delay to dispense an additional ~1.33 oz of tea to achieve the 2:1 ratio of tea to lemonade. 
 5. Repeat steps 3 and 4 until the delay times result in the desired volumes of tea and lemonade.
-6. Repeat steps 3 through 5 for the 8 oz and 12 oz loops with their respective volumes of tea and lemonade based on the 2:1 volumetric ratio.   
+6. Repeat steps 3 through 5 for the 8 oz and 12 oz loops with their respective volumes of tea and lemonade based on the 2:1 volumetric ratio.      
 ## Design Decision Discussion ##
-
-1. The elevation head was too inconsistent when first beginning to pump the iced tea and lemonade leading to the tubing needing to be filled by doing test runs of the device. Once the tubing was filled, the proper amount of liquid would be dispensed based on what button was pressed. An engineer could add pumps to the design of the mixer to increase the head and have a greater and more consistent flow traveling through the tubing. However, our group did not have the budget or expertise to add pumps to our mixer.
-
-2. 
-
-elevation head to inconsistent, noise from wiring solenoids messing up Arduino
+After completing the testing phase of the project there were several aspects of the current design that could be modified to improve the efficiency of the system. To begin, it would be reccomended that the solenoids be replaced with pumps in order to ensure accurate dispensation. The calculated elevation head did not supply enough flow to dispense in a timely manner. This required the tanks to be placed on a shelf ~2ft above the machine, reducing practaclity. By using pumps, there wouldnt be a reliance on gravity in oder to dispense the drink and the rate of dispensation would not change based on the volume of fluid in the system. The pumps would also reduce the need to seal the tubes to the caps and not require the tanks to be flipped upside down, reducing the risk of leaks while pouring and spillage from refilling the containers.  The next possible modification to the machine would be to make the stirring rod height adjustable. In the current design, the stirring rod has to be detachable and placed into the cup prior to filling in order to be able to fit underneath the canopy of the machine. to require less user input in the mixing process, it would be reccomended that the stirring motor be put on a vertical track system attached to another motor so that the rod could be raised and lowered after the cup is placed under the nozzle. This would require another motor, (two are included in the sparkfun kit), a rack and pinion system, and a new function to be created in the code that would lower the motor after the cup is placed and modifying the "end()" fucntion to raise the rod after the mixing is complete.  
 ## Testing Results Discussion ##
-## Testing Results ## 
+elevation head to inconsisitent, noise from wiring solenoids messing up arduino
+## Testing Results ##
