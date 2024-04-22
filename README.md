@@ -138,26 +138,26 @@ void loop() {
 ```
 
 ### Assembly Instructions: ###   
-1. Build a simple frame that can fit a 12 oz cup underneath it while also accomidating for the stirring rod.
-2. Mount the arduino to the back of the frame leaving enough room for the display and breadboard to fit on the front of the machine.
-3. Attatch hose barbs to both ends of each solenoid with plumbers tape to avoid leaks. 
+1. Build a simple frame that can fit a 12 oz cup underneath it while also accommodating for the stirring rod.
+2. Mount the Arduino to the back of the frame leaving enough room for the display and breadboard to fit on the front of the machine.
+3. Attach hose barbs to both ends of each solenoid with plumbers' tape to avoid leaks. 
 4. Mount the solenoids on opposite sides of the frame above where the cup will be with the flow direction leading to the front of the frame.
 5. Size tubing appropriately so that ample tubing leads from both solenoids to the front of the frame to pour into the drink.
-6. Build a separate frame that will supply a sufficient elevation head to dispense at the desired flowrate.
+6. Build a separate frame that will supply a sufficient elevation head to dispense at the desired flow rate.
 7. Drill holes in the caps of the desired lemonade and tea containers so that the tubing can be inserted and sealed to prevent leaks. Make sure that the containers share the same dimensions or modify the frame accordingly.
 8. Size tubing appropriately so that ample tubing leads from both containers to the inlet of the solenoids. 
-9. Mount the motor to the front of the machine so that it will be able to reach the desired cup and not interfere with the outlet tubing .
-10. Attatch a breadboard and LCD display to the front of the machine so that the display is on top of the buttons.
-11. Mount the relay module to the top of the machine in proximity of both solenoids and the arduino. 
-12. Wire the buttons on the foremost breadboard to digital pins on the arduino.
-13. Wire the motor to the motor control unit on the breadboard connected to the arduino.
-14. Wire the display using the I2C ports on the arduino.
-15. Wire the two power terminals of the solenoids to the relay module in the communication port.
-16. Attatch two wire in the always closed ports of the relays and wire them in parallel.
+9. Mount the motor to the front of the machine so that it will be able to reach the desired cup and not interfere with the outlet tubing.
+10. Attach a breadboard and LCD to the front of the machine so that the display is on top of the buttons.
+11. Mount the relay module to the top of the machine in proximity to both solenoids and the Arduino. 
+12. Wire the buttons on the foremost breadboard to digital pins on the Arduino.
+13. Wire the motor to the motor control unit on the breadboard connected to the Arduino.
+14. Wire the display using the I2C ports on the Arduino.
+15. Wire the two positive terminals of the solenoids to the relay module in the communication port.
+16. Attach two wires in the always closed ports of the relays and wire them in parallel.
 17. Wire both ground cables of the solenoids in parallel.
-18. Connect the two signal ports of the relay module to digitial pins on the arduino as well as power and ground. 
-19. Connect the DC power supply to the corresponding wires from the solenoids.
-20. connect the arduino to a computer or sufficient DC power supply.
+18. Connect the two signal ports of the relay module to digital pins on the Arduino as well as power and ground. 
+19. Connect the DC power supply to the corresponding cables from the solenoids.
+20. connect the Arduino to a computer or sufficient DC power supply.
 ## Testing Description ##
 ### Test Equipment: ###   
 Global Specialties 1403 DC Power Supply
