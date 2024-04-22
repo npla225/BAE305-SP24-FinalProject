@@ -1,4 +1,4 @@
-# BAE305 SP24 Final Project: The Palmernator
+# BAE305 SP24 Final Project: The Palmer-nator
 
 Noah Lane, Lily Schlaug, and Isaac Stevens
 
