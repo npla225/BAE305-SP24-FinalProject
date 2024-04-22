@@ -179,3 +179,4 @@ The elevation head was too inconsistent when the mixer ran and needed to have th
 
 elevation head to inconsistent, noise from wiring solenoids messing up Arduino
 ## Testing Results ##
+The test results were described correctly with the testing procedure instructing users on how to use the mixer. Using a solo cup with measurements on the side, our group was able to confirm the mixer dispensed Arnold Palmer at 4 ounces, 8 ounces, and 12 ounces. The ratio of iced tea was also confirmed through testing by clogging a tube and measuring the amount dispensed from the unclogged tube. By testing each of the three buttons and keeping the 2-liters at a set height above the dispenser, we were able to test and measure the capabilities of the system in a safe and efficient method.
