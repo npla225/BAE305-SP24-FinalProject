@@ -10,6 +10,13 @@ For the BAE 305 final project, our group created a drink mixer, specifically an 
 
 ## Design Description ##
 
+Materials:
+
+Drawings:
+
+Code:
+
+
 ## Testing Description ##
 
 ## Discussion ##
