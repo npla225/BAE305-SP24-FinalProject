@@ -10,15 +10,14 @@ For the BAE 305 final project, our group created a drink mixer, specifically an 
 
 ## Design Description ##
 
-Materials:   
+### Materials: ###      
 ![image](https://github.com/npla225/BAE305-SP24-FinalProject/assets/156371043/868765b4-e32b-44b6-82e7-a3a1956556bd)
 
 
-Drawings:   
+### Drawings: ###      
 ![image](https://github.com/npla225/BAE305-SP24-FinalProject/assets/156371043/519abd4b-f517-4149-b785-d5f05e6a83a2)
 
-
-Code:
+### Code: ###   
 
 ```c++
 // include the library code:
@@ -138,7 +137,7 @@ void loop() {
   }
 ```
 
-Assembly Instructions:
+### Assembly Instructions: ###   
 1. Build a simple frame that can fit a 12 oz cup underneath it while also accomidating for the stirring rod.
 2. Mount the arduino to the back of the frame leaving enough room for the display and breadboard to fit on the front of the machine.
 3. Attatch hose barbs to both ends of each solenoid with plumbers tape to avoid leaks. 
@@ -153,15 +152,25 @@ Assembly Instructions:
 12. Wire the buttons on the foremost breadboard to digital pins on the arduino.
 13. Wire the motor to the motor control unit on the breadboard connected to the arduino.
 14. Wire the display using the I2C ports on the arduino.
-15. Wire the two positive terminals of the solenoids to the relay module in the communication port.
+15. Wire the two power terminals of the solenoids to the relay module in the communication port.
 16. Attatch two wire in the always closed ports of the relays and wire them in parallel.
 17. Wire both ground cables of the solenoids in parallel.
 18. Connect the two signal ports of the relay module to digitial pins on the arduino as well as power and ground. 
-19. Connect the DC power supply to the corresponding cables from the solenoids.
+19. Connect the DC power supply to the corresponding wires from the solenoids.
 20. connect the arduino to a computer or sufficient DC power supply.
 ## Testing Description ##
-Test Equipment:
-1x Global Specialties 1403 DC Power Supply
-## Discussion ##
+### Test Equipment: ###   
+Global Specialties 1403 DC Power Supply
+Arduino IDE  
+Graduated Cylinder 
+### Testing Procedures ###
+1. Connect the arduino to a computer running arduino IDE and the power and ground leads of the solenoids to the DC power supply.
+2. Begin with the 4oz loop. 
+3. Using a 2:1 ratio of tea to lemonade change the first delay on the relay open times to dispense ~1.33 oz of tea and lemonade for a total of 2.66 oz.
+4. Close the lemonade relay and adjust the second delay to dispense an additinal ~1.33 oz of tea to achieve the 2:1 ratio of tea to lemonade. 
+5. Repeat steps 3 and 4 until the delay times result in the desired volumes of tea and lemonade.
+6. Repeat steps 3 through 5 for the 8 oz and 12 oz loops with their respective volumes of tea and lemonade based on the 2:1 ratio.   
+## Design Decision Discussion ##
 elevation head to inconsisitent, noise from wiring solenoids messing up arduino
-## Testing Results ##
+## Testing Results Discussion ##
+## Testing Results ## 
