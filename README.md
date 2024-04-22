@@ -157,20 +157,20 @@ void loop() {
 17. Wire both ground cables of the solenoids in parallel.
 18. Connect the two signal ports of the relay module to digital pins on the Arduino as well as power and ground. 
 19. Connect the DC power supply to the corresponding cables from the solenoids.
-20. connect the Arduino to a computer or sufficient DC power supply.
+20. Connect the Arduino to a computer or sufficient DC power supply.
 ## Testing Description ##
 ### Test Equipment: ###   
 Global Specialties 1403 DC Power Supply
 Arduino IDE  
 Graduated Cylinder 
 ### Testing Procedures ###
-1. Connect the arduino to a computer running arduino IDE and the power and ground leads of the solenoids to the DC power supply.
+1. Connect the Arduino to a computer running Arduino IDE and the power and ground leads of the solenoids to the DC power supply.
 2. Begin with the 4oz loop. 
 3. Using a 2:1 volumetric ratio of tea to lemonade change the first delay on the relay open times to dispense ~1.33 oz of tea and lemonade for a total of 2.66 oz.
-4. Close the lemonade relay and adjust the second delay to dispense an additinal ~1.33 oz of tea to achieve the 2:1 ratio of tea to lemonade. 
+4. Close the lemonade relay and adjust the second delay to dispense an additional ~1.33 oz of tea to achieve the 2:1 ratio of tea to lemonade. 
 5. Repeat steps 3 and 4 until the delay times result in the desired volumes of tea and lemonade.
 6. Repeat steps 3 through 5 for the 8 oz and 12 oz loops with their respective volumes of tea and lemonade based on the 2:1 volumetric ratio.   
 ## Design Decision Discussion ##
-elevation head to inconsisitent, noise from wiring solenoids messing up arduino
+elevation head to inconsistent, noise from wiring solenoids messing up Arduino
 ## Testing Results Discussion ##
 ## Testing Results ## 
