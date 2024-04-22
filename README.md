@@ -14,6 +14,8 @@ Materials:
 
 Drawings:
 
+Design:
+
 Code:
 
 ```c++
@@ -92,6 +94,8 @@ void loop() {
     delay
 ```
 Code Display 1
+
+Assembly Instructions:
 
 ## Testing Description ##
 
